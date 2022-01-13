@@ -22,10 +22,11 @@ $$u_{tt}=c^2u_{xx}\qquad -\infty<x<\infty$$
 $$u(x,0)=\phi(x)\qquad u_t(x,0)=\psi(x)$$
 $$u(x,t)=\frac{1}{2}\left(\phi(x+ct)+\phi(x-ct)\right)+\frac{1}{2c}\int_{x-ct}^{x+ct}\psi(s)ds$$
 \subsection{Avec conditions aux bords}
-$$u(0,t)=0\qquad u(l,t)=0$$
-$$u(x,0)=\phi(x)\qquad u_t(x,0)=\psi(x)$$
-La solution est de la forme 
+La solution est de la forme (séparation de variable)
 $$u(x,t)=X(x)T(t)$$
 $$\begin{cases}X(x)&=C\cos(\beta x)+D\sin(\beta x)\\T(t) &= A\cos(\beta ct)+B\sin(\beta ct)\end{cases}$$
 $\lambda$ est une constante tel que $\lambda=\beta^2\qquad \beta>0$
+$$u(x,0)=\sum_{n=1}^{\infty}A_n\sin\left(\beta x\right)=\phi(x)$$
+$$u_t(x,0)=\sum_{n=1}^{\infty}\beta c\sin\left(\beta x\right)=\psi(x)$$
+Les fréquences sont $\frac{n\pi c}{l}$ avec la fondemantale en $n=1$
 \end{document}
