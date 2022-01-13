@@ -1,0 +1,70 @@
+\documentclass[resume]{subfiles}
+
+
+\begin{document}
+\section{Introduction}
+$$\boxed{\frac{\partial u}{\partial x}=u_x}$$
+$$\frac{\partial^2 u}{\partial \textcolor{RoyalBlue}{x}\partial \textcolor{OrangeRed}{y}}=\frac{\partial^2 u}{\partial \textcolor{OrangeRed}{y}\partial \textcolor{RoyalBlue}{x}}$$
+\subsection{Dérivée}
+$$u'(x)=\lim_{h\to 0}\frac{u(x+h)-u(x)}{h}=\lim_{h\to 0}\frac{u(x)-u(x-h)}{h}$$
+\subsection{EDO du premier ordre}
+$$\boxed{\frac{dy}{dt}=ky\longrightarrow y=Ce^{kt}}$$
+\subsection{EDP du premier ordre}
+\begin{multline*}
+F\Big(x,y,u(x,y),u_x(x,y),u_y(x,y)\Big)\\=F\Big(x,y,u,u_x,u_y\Big)=0
+\end{multline*}
+\subsection{EDP du deuxième ordre}
+$$F\Big(x,y,u,u_x,u_y,u_{xx},u_{xy},u_{yy}\Big)=0$$
+$$Au_{xx}+Bu_{xy}+Cu_{yy}+Du_x+Eu_y+Fu=G$$
+\paragraph{Parabolique} : $B^2-4AC=0$
+\paragraph{Hyperbolique} : $B^2-4AC>0$
+\paragraph{Elliptique} : $B^2-4AC<0$
+\subsection{Opérateurs}
+\paragraph{Linéarité}
+$$\mathcal{L}(u+v)=\mathcal{L}u+\mathcal{L}v\quad \text{ et }\quad \mathcal{L}(cu)=c\mathcal{L}u$$
+\hfill \textcolor{RoyalBlue}{linéaire}\hfill \textcolor{OrangeRed}{non linéaire}\hfill \
+$$\textcolor{RoyalBlue}{u_x+u_y=0}\qquad \textcolor{RoyalBlue}{u_x+yu_y=0}\qquad \textcolor{OrangeRed}{u_x+uu_y=0}$$
+$$\textcolor{RoyalBlue}{u_{xx}+u_{yy}=0}\quad \textcolor{OrangeRed}{u_{tt}-u_{xx}+u^3=0}\quad \textcolor{OrangeRed}{u_t+uu_x+u_{xxx}=0}$$
+\paragraph{Équation linéaire homogène} $\mathcal{L}u=0$
+\paragraph{Équation linéaire non-homogène} $\mathcal{L}u=g$
+$$u_x+u_y+1=0\longrightarrow \text{ inhomogène}$$
+solution homogène + solution inhomogène = solution inhomogène
+$$\boxed{a(x,y)u_x+b(x,y)u_y=0\longrightarrow \frac{dy}{dx}=\frac{b(x,y)}{a(x,y)}}$$
+Puis faire
+$$\underbrace{\int \frac{dy}{dx}dx}_{y}=\underbrace{\int \frac{b(x,y)}{a(x,y)}dx}_{\cdots + c}$$
+Combinaison linéaire de plusieurs solutions est aussi une solution
+\subsection{Conditions initiales}
+$$u(x,t_0)=\phi(x)$$
+OU
+$$u(x,t_0)=\phi(x)\qquad u_t(x,t_0)=\psi(x)$$
+\subsection{Conditions aux bords}
+\paragraph{Dirichlet} : $u$ est spécifié
+\paragraph{Neumann} : $\frac{\partial u}{\partial n}$ est spécifié
+\paragraph{Robin} : $\frac{\partial u}{\partial n}+au$ est spécifié
+\subsection{Problèmes bien posés}
+Les problèmes bien posés (au sens d'Hadamard) sont constitués d'une EDP dans un domaine et avec les propriétés suivantes :
+\paragraph{Existence} : il existe au moins une solution $u(x,t)$ qui satisfait toutes les conditions
+\paragraph{Unicité} : il existe au plus une solution
+\paragraph{Stabilité} : La solution unique $u(x,t)$ dépende de manière stable des données (peu de changement $\to$ peu de variation)
+\subsection{Exemples}
+\begin{enumerate}
+\item 
+$$au_x+bu_y=0\qquad u(x,y)=f(bx-ay)$$
+Avec $bx-ay=c$ les droites caractéristiques
+\item 
+$$u_t+cu_x=0$$
+Au temps $t+h$, déplacement de $c\cdot h$
+\item 
+$$u_{xx}=0\xrightarrow{\int dx} u_x=f(y)\xrightarrow{\int dx} u=g(y)+xf(y)$$
+$$u(x,y)=f(y)x+g(y)$$
+\item \begin{small}$$u_{xx}+u=0\rightarrow u(x,y)=f(y)\cos(x)+g(y)\sin(x)$$\end{small}
+\item $$u_{xy}=0\longrightarrow u(x,y)=f(y)+g(x)$$
+A noter que $f(y)$ et $g(x)$ sont les intégrales de fonctions intermédiaires.
+\item $$u_x+yu_y=0\longrightarrow u(x,y)=f(e^{-x}y)$$
+
+\end{enumerate}
+
+
+
+
+\end{document}

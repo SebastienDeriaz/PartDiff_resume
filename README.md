@@ -5,8 +5,9 @@
 - TODO : Documents à copier dans LaTex
 - Exercices : Solutions d'exercices, organisés par indice nom-prenom de l'auteur
 
-
 ## Modalités
+
+- Formulaires et tables accepté
 
 ### Contenu
 
