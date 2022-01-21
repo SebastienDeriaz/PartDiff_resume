@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  13 JAN 2022 16:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  14 JAN 2022 09:55
 entering extended mode
 **./introduction.tex
 (introduction.tex
@@ -375,36 +375,36 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 [1
 
 {C:/Users/Sebastien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] [3] (introduction.aux) ) 
+[2] [3] [4] (introduction.aux) ) 
 Here is how much of TeX's memory you used:
- 3636 strings out of 492449
- 51475 string characters out of 3118125
+ 3646 strings out of 492449
+ 51567 string characters out of 3118125
  256135734 words of memory out of 259000000
- 7966 multiletter control sequences out of 15000+200000
- 7887 words of font info for 29 fonts, out of 3000000 for 9000
+ 7972 multiletter control sequences out of 15000+200000
+ 9126 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,51p,354b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebasti
-en/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
-<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cmextra/cmex7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Sebastien/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users
-/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
-i9.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmr10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Sebastien/AppDat
-a/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users
-/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmsy9.pfb>
-Output written on introduction.pdf (3 pages, 155898 bytes).
+ 41i,12n,51p,255b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Sebastien/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Seb
+astien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cmextra/cmex7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/Sebastien/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
+sers/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmmi9.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Sebastien/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmsy7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmsy9.pfb>
+Output written on introduction.pdf (4 pages, 162212 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

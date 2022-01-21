@@ -4,6 +4,9 @@
 \begin{document}
 \section{Équation d'onde}
 $$\boxed{u_{tt}=c^2u_{xx}}$$
+$c$ est la vitesse de l'onde. Pour une corde on a
+$$c=\sqrt{\frac{T}{\rho}}$$
+Avec $T$ la tension et $\rho$ la densité
 \subsection{1D}
 Modèle ressorts-masses
 $$F_\text{newton}=ma(t)=m\frac{\partial^2}{\partial t^2}u(x,t)$$
@@ -21,12 +24,35 @@ Deux familles de droites caractéristiques $x\pm ct=\text{constante}$. Somme de 
 $$u_{tt}=c^2u_{xx}\qquad -\infty<x<\infty$$
 $$u(x,0)=\phi(x)\qquad u_t(x,0)=\psi(x)$$
 $$u(x,t)=\frac{1}{2}\left(\phi(x+ct)+\phi(x-ct)\right)+\frac{1}{2c}\int_{x-ct}^{x+ct}\psi(s)ds$$
-\subsection{Avec conditions aux bords}
+\subsection{Conditions aux bords}
 La solution est de la forme (séparation de variable)
 $$u(x,t)=X(x)T(t)$$
-$$\begin{cases}X(x)&=C\cos(\beta x)+D\sin(\beta x)\\T(t) &= A\cos(\beta ct)+B\sin(\beta ct)\end{cases}$$
+$$\frac{X''}{X}=\frac{T''}{c^2T}=-\lambda$$
+\begin{equation}
+\begin{cases}X(x)&=C\cos(\beta x)+D\sin(\beta x)\\T(t) &= A\cos(\beta ct)+B\sin(\beta ct)\end{cases}
+\label{onde_avec_cb}
+\end{equation}
 $\lambda$ est une constante tel que $\lambda=\beta^2\qquad \beta>0$
+\subsection{Conditions aux bords de Dirichlet}
 $$u(x,0)=\sum_{n=1}^{\infty}A_n\sin\left(\beta x\right)=\phi(x)$$
 $$u_t(x,0)=\sum_{n=1}^{\infty}\beta c\sin\left(\beta x\right)=\psi(x)$$
 Les fréquences sont $\frac{n\pi c}{l}$ avec la fondemantale en $n=1$
+\subsubsection{Conditions aux bords $=0$}
+\begin{scriptsize}
+$$\boxed{u_n(x,t)=\left(A_n\cos\left(\frac{n\pi c}{l}t\right)+B_n\sin\left(\frac{n\pi c}{l}t\right)\right)\sin\left(\frac{n\pi c}{l}x\right)}$$
+\end{scriptsize}
+\subsection{Conditions aux bords de Neumann}
+$$u(x,0)=\frac{1}{2}A_0+\sum_{n=1}^{\infty}A_n\cos\left(\frac{n\pi}{l}x\right)$$
+$$u_t(x,0)=\frac{1}{2}B_0+\sum_{n=1}^{\infty}\frac{n\pi c}{l}B_n\cos\left(\frac{n\pi}{l}x\right)$$
+\subsection{Conditions aux bords mixtes}
+Appliquer les conditions à l'équation \ref{onde_avec_cb}
+
+
+
+$u(0,t)=u_x(l,t)=0$ par exemple.
+$$\lambda_n=\frac{\left(n+\frac{1}{2}\right)^2\pi^2}{l^2}$$
+$$X_n(x)=\sin\left(\frac{\left(n+\frac{1}{2}\right)\pi}{l}x\right)$$
+
+
+
 \end{document}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  13 JAN 2022 17:52
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  16 JAN 2022 09:07
 entering extended mode
 **./autres.tex
 (autres.tex
@@ -377,13 +377,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 {C:/Users/Sebastien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (autres.aux) ) 
 Here is how much of TeX's memory you used:
- 3618 strings out of 492449
- 51242 string characters out of 3118125
- 256135734 words of memory out of 259000000
- 7955 multiletter control sequences out of 15000+200000
+ 3620 strings out of 492449
+ 51262 string characters out of 3118125
+ 256135742 words of memory out of 259000000
+ 7957 multiletter control sequences out of 15000+200000
  5612 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,51p,249b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,51p,249b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppData/Loc
@@ -396,7 +396,7 @@ iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/L
 ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Se
 bastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.
 pfb>
-Output written on autres.pdf (1 page, 87086 bytes).
+Output written on autres.pdf (1 page, 91824 bytes).
 PDF statistics:
  42 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -13,6 +13,24 @@ $$\boxed{\frac{dy}{dt}=ky\longrightarrow y=Ce^{kt}}$$
 \begin{multline*}
 F\Big(x,y,u(x,y),u_x(x,y),u_y(x,y)\Big)\\=F\Big(x,y,u,u_x,u_y\Big)=0
 \end{multline*}
+\subsubsection{Résolution}
+$$\boxed{\textcolor{RoyalBlue}{a}(x,y)u_x+\textcolor{OrangeRed}{b}(x,y)u_y=0\longrightarrow \frac{dy}{dx}=\frac{\textcolor{OrangeRed}{b}(x,y)}{\textcolor{RoyalBlue}{a}(x,y)}}$$
+$au_x+bu_y$ est la dérivée directionnelle dans le sens du vecteur $\mathbf{v}=\begin{pmatrix}a\\b\end{pmatrix}$
+
+\textcolor{OrangeRed}{Tout ce qui suit à vérifier (ok pour les coefficients constants mais peut-être quelques modificiations pour les coefficients variables)}
+\paragraph{Coefficients constants}
+Droite caractéristique : $\textcolor{OrangeRed}{b}x-\textcolor{RoyalBlue}{a}y=c$ (solution constante sur ces droites)
+$$u(x,y)=f(\textcolor{OrangeRed}{b}t-\textcolor{RoyalBlue}{a}x)$$
+Puis appliquer les conditions données.
+\paragraph{Coefficients variables}
+Trouver les \textbf{courbes caractéristiques} (solution constante sur les courbes) en résolvant l'équation $\frac{dy}{dx}=\frac{\textcolor{OrangeRed}{b}}{\textcolor{RoyalBlue}{a}}$ avec, par exemple :
+$$\underbrace{\int \frac{dy}{dx}dx}_{y}=\underbrace{\int \frac{b(x,y)}{a(x,y)}dx}_{\cdots + c}\quad \longrightarrow\quad u(x,t)=f("c")$$
+OU
+$$\text{si }\frac{dy}{dx}=y\longrightarrow y=Ce^{x}$$
+$$u(x,t)=f("C")=f(ye^{-x})$$
+
+\paragraph{Autres cas} : par exemple $3u_y+u_{xy}$ on effectue une substitution $v=u_y$ pour simplifier le problème.\\
+Combinaison linéaire de plusieurs solutions est aussi une solution
 \subsection{EDP du deuxième ordre}
 $$F\Big(x,y,u,u_x,u_y,u_{xx},u_{xy},u_{yy}\Big)=0$$
 $$\textcolor{RoyalBlue}{A}u_{xx}+\textcolor{OrangeRed}{B}u_{xy}+\textcolor{ForestGreen}{C}u_{yy}+Du_x+Eu_y+Fu=G$$
@@ -31,14 +49,11 @@ $$\textcolor{RoyalBlue}{u_x+u_y=0}\qquad \textcolor{RoyalBlue}{u_x+yu_y=0}\qquad
 $$\textcolor{OrangeRed}{u_x+uu_y=0}\qquad \textcolor{RoyalBlue}{u_{tt}+u_{xxxx}=0}\qquad \textcolor{RoyalBlue}{u_t-ju_{xx}=0}$$
 
 
+\subsubsection{Homogénéité (seulement si linéaire)}
 \paragraph{Équation linéaire homogène} $\mathcal{L}u=0$
 \paragraph{Équation linéaire non-homogène} $\mathcal{L}u=g$
 $$u_x+u_y+1=0\longrightarrow \text{ inhomogène}$$
 solution homogène + solution inhomogène = solution inhomogène
-$$\boxed{a(x,y)u_x+b(x,y)u_y=0\longrightarrow \frac{dy}{dx}=\frac{b(x,y)}{a(x,y)}}$$
-Puis faire
-$$\underbrace{\int \frac{dy}{dx}dx}_{y}=\underbrace{\int \frac{b(x,y)}{a(x,y)}dx}_{\cdots + c}$$
-Combinaison linéaire de plusieurs solutions est aussi une solution
 \subsection{Conditions initiales}
 $$u(x,t_0)=\phi(x)$$
 OU
