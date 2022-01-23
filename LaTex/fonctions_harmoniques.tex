@@ -3,5 +3,23 @@
 
 \begin{document}
 \section{Fonctions harmoniques}
+\paragraph{Laplacien}
+$$\Delta_2=\frac{\partial^2}{\partial x^2}+\frac{\partial^2}{\partial y^2}$$
+En coordonnées polaires on a
+$$u_{xx}+u_{yy}=u_{rr}+\frac{1}{r}u_r$$
+\subsection{Principe du maximum / minimum}
+Le maximum et le minimum de la fonction sont atteints sur les bords du domaine
+\subsection{Procédure}
+\begin{enumerate}
+\item Séparation des variables
+$$u(x,y)=X(x)Y(y)\longrightarrow \frac{X''}{X}+\frac{Y''}{Y}=0$$
+$$\boxed{\begin{cases}X''+\lambda X&=0\\ Y''-\lambda Y&=0\end{cases}}$$
 
+\item Insertion des conditions aux bords
+\item Somme de la série
+\item Ajout du terme inhomogène ou conditions aux bords
+\end{enumerate}
+\subsection{Autres}
+\paragraph{Polynôme quadratique en $x$ et $y$} :
+$$\boxed{u(x,y)=Ax^2+By^2+Cxy+Dx+Ey+F}$$
 \end{document}
