@@ -1,0 +1,3 @@
+Ajouter le chenit de la serie 4
+Equation d'onde avec condition aux board (D;N;R)
+X(x) = Acos(bx)+Bsin(bx), T(t)=Ae^{-(\lambda k t)} @ \beta^2 = \lambda
