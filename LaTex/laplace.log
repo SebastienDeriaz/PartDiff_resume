@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  24 JAN 2022 18:21
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  24 JAN 2022 20:07
 entering extended mode
-**./fourier.tex
-(fourier.tex
+**./laplace.tex
+(laplace.tex
 LaTeX2e <2019-10-01> patch level 3
 
 ("C:\Users\Sebastien\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfiles\subfi
@@ -301,8 +301,8 @@ Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks23
 \verbatim@line=\toks24
 \verbatim@in@stream=\read1
-)))) (fourier.aux)
-\openout1 = `fourier.aux'.
+)))) (laplace.aux)
+\openout1 = `laplace.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -372,31 +372,83 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+
+
+pdfTeX warning: pdflatex (file ./img_6.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<img_6.pdf, id=1, page=1, 143.8705pt x 105.86781pt>
+File: img_6.pdf Graphic file (type pdf)
+<use img_6.pdf, page 1>
+Package pdftex.def Info: img_6.pdf , page1 used on input line 8.
+(pdftex.def)             Requested size: 199.16928pt x 146.56941pt.
+
+
+pdfTeX warning: pdflatex (file ./img_6.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<img_6.pdf, id=2, page=2, 153.66267pt x 105.86781pt>
+File: img_6.pdf Graphic file (type pdf)
+<use img_6.pdf, page 2>
+Package pdftex.def Info: img_6.pdf , page2 used on input line 9.
+(pdftex.def)             Requested size: 199.16928pt x 137.22426pt.
+
+
+pdfTeX warning: pdflatex (file ./drwg_0.pdf): PDF inclusion: found PDF version 
+<1.7>, but at most version <1.5> allowed
+<drwg_0.pdf, id=3, 250.83171pt x 171.79974pt>
+File: drwg_0.pdf Graphic file (type pdf)
+<use drwg_0.pdf>
+Package pdftex.def Info: drwg_0.pdf  used on input line 13.
+(pdftex.def)             Requested size: 199.16928pt x 136.41498pt.
+
+
+pdfTeX warning: pdflatex (file ./img_7.pdf): PDF inclusion: found PDF version <
+1.7>, but at most version <1.5> allowed
+<img_7.pdf, id=4, 320.88382pt x 118.67738pt>
+File: img_7.pdf Graphic file (type pdf)
+<use img_7.pdf>
+Package pdftex.def Info: img_7.pdf  used on input line 17.
+(pdftex.def)             Requested size: 199.16928pt x 73.6625pt.
 [1
 
-{C:/Users/Sebastien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(fourier.aux) ) 
+{C:/Users/Sebastien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img_6
+.pdf> <./img_6.pdf> <./drwg_0.pdf>] [2 <./img_7.pdf>] (laplace.aux) ) 
 Here is how much of TeX's memory you used:
- 3617 strings out of 492449
- 51240 string characters out of 3118125
+ 3637 strings out of 492449
+ 51617 string characters out of 3118125
  256135734 words of memory out of 259000000
- 7955 multiletter control sequences out of 15000+200000
+ 7972 multiletter control sequences out of 15000+200000
  5304 words of font info for 20 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,51p,250b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sebastien/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Seb
-astien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.p
-fb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sebastien/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on fourier.pdf (1 page, 78255 bytes).
+ 41i,11n,51p,250b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/
+Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx
+12.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sebastien/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/U
+sers/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.p
+fb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmmi10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmmi6.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi8.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmss10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Users/Sebastien/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/lm/lmss8.pfb><C:/Users/Sebastien/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss9.pfb><C:/Users/Sebastien/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/Seba
+stien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/U
+sers/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.p
+fb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
+lmsso9.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmsy10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy6.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/lm/lmsy8.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmsy9.pfb><C:/Users/Sebastien/AppData/Local/Progr
+ams/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on laplace.pdf (2 pages, 473616 bytes).
 PDF statistics:
- 38 PDF objects out of 1000 (max. 8388607)
+ 783 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

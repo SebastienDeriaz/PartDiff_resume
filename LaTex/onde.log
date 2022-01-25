@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  16 JAN 2022 09:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2020.5.15)  24 JAN 2022 19:17
 entering extended mode
 **./onde.tex
 (onde.tex
@@ -375,7 +375,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 [1
 
 {C:/Users/Sebastien/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2] (onde.aux) ) 
+[2] [3] (onde.aux) ) 
 Here is how much of TeX's memory you used:
  3623 strings out of 492449
  51271 string characters out of 3118125
@@ -383,24 +383,24 @@ Here is how much of TeX's memory you used:
  7960 multiletter control sequences out of 15000+200000
  5612 words of font info for 21 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,51p,247b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppData/L
-ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Se
-bastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/c
-mex7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Sebastien/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Sebastien/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmsy10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on onde.pdf (2 pages, 127222 bytes).
+ 41i,12n,51p,247b,205s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/User
+s/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cmext
+ra/cmex7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/Sebastien/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Sebasti
+en/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on onde.pdf (3 pages, 128812 bytes).
 PDF statistics:
- 53 PDF objects out of 1000 (max. 8388607)
+ 56 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
