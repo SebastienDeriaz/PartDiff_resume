@@ -8,10 +8,10 @@
 $$\int_{a}^{b}u'v=uv\Big|_{a}^{b}-\int_{a}^{b}uv'$$
 \subsubsection{exemple}
 \begin{align*}
-\int_{0}^{1}x^2\cdot sin(n\pi x)dx=\int_{0}^{1} f dg = fg\Big|_{0}^{1} - \int_{0}^{1} g df \\
-f=x^2, dg= sin(n\pi x)dx\\
-df=2x\cdot dx, g = -\frac{cos(n\pi x)}{n\pi}\\
-= -\frac{x^2\cdot cos(n\pi x)}{n\pi}\Big|_{0}^{1}+\int_{0}^{1} \frac{2x\cdot cos(n\pi x)}{n\pi}
+\int_{0}^{1}x^2\cdot \sin(n\pi x)dx=\int_{0}^{1} f dg = fg\Big|_{0}^{1} - \int_{0}^{1} g df \\
+f=x^2, dg= \sin(n\pi x)dx\\
+df=2x\cdot dx, g = -\frac{\cos(n\pi x)}{n\pi}\\
+= -\frac{x^2\cdot \cos(n\pi x)}{n\pi}\Big|_{0}^{1}+\int_{0}^{1} \frac{2x\cdot \cos(n\pi x)}{n\pi}
 \end{align*}
 
 \subsection{Changement de variable}
@@ -25,6 +25,7 @@ $$\int_{a}^{b}f(\varphi(t))dt=\frac{1}{\varphi'}\int_{\varphi(a)}^{\varphi(b)}f(
 \begin{align*}
 X''&=-\beta^2 X&&\longrightarrow X(x)=A\cos(\beta x)+B\sin(\beta x)\\
 X''&=\beta^2 X&&\longrightarrow X(x)=A\cosh(\beta x)+B\sinh(\beta x)\\
+X' & =a X & & \longrightarrow X(x)=ce^{ax}\\
 X''&=0 &&\longrightarrow X(x)=Ax+B
 \end{align*}
 
@@ -67,4 +68,15 @@ $$\begin{pmatrix}
 \textcolor{Violet}{d} & \textcolor{OrangeRed}{-b}\\
 \textcolor{ForestGreen}{-c} & \textcolor{RoyalBlue}{a}
 \end{pmatrix}$$
+\subsection{A faire attention}
+
+\begin{mdframed}[linewidth=2pt,linecolor=OrangeRed!50!White]
+\begin{itemize}
+\item Dès qu'on utilise $n$ on doit directement écrire la série de Fourier
+\item Ne pas oublier des termes (duh), genre devant des parenthèses
+\item Écrire les sin et cos lorsqu'on demande "les x premiers termes"
+\item Les $+c$
+\end{itemize}
+
+\end{mdframed}
 \end{document}
