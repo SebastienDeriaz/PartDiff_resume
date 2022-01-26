@@ -95,8 +95,10 @@ L'analyse de Von Neumann montre que le schéma centré n'est pas stable (même s
 \begin{align*} % exercice3 serie8 exemple de différence finies
 -u''(x) = f(x) = (3x+x^2)e^x \textbf{Avec CB (D) = 0}\\
 h=1/5 \rightarrow 0 \frac{1}{5} \frac{2}{5} \frac{3}{5} \frac{4}{5} 1
-
 \end{align*}
-
-
+\subsection{méthode d'Euler}
+$$\vec{u}_{k+1}=\vec{u}_k+\tau\left(-A\vec{u}_k+\vec{b}(t_k)\right)$$
+\subsection{Méthode d'Euler implicite}
+$$\vec{u}_{k+1}=\vec{u}_k+\tau\left(-A\vec{u}_{k+1}+\vec{b}(t_{k+1})\right)$$
+Vérifier les formules... c'est illisible sur le polycop
 \end{document}

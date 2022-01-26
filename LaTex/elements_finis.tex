@@ -5,17 +5,22 @@
 \section{Éléments finis}
 \subsection{Forme forte}
 $$-u''(x)=f(x)$$
-\subsection{Forme faible / variationnelle}
+\subsection{Forme faible / variationnelle (Ritz-Galerkin)}
 $$-u''(x)v(x)=f(x)v(x)$$
+On multiplie des deux côtés par une fonction $v(x)$ qui respecte
+$$v(0)=v(l)=0$$
+$$\int_{0}^{l}-u''(x)v(x)dx=\int_{0}^{l}f(x)v(x)$$
 \subsubsection{Exemple}
 Avec $-u''(x)=x^2$. On aura un problème de la forme
 $$\boxed{A_hc=b_h}$$
 Avec les $c$ qui correspondent au poids de chaque fonction de base.
 \paragraph{Calcul de $A$ (matrice de rigidité)}
-$$a_{ij}=\int_{0}^{L}N_i'(x)N_j'(x)dx$$
+$$\boxed{a_{ij}=\int_{0}^{L}N_i'(x)N_j'(x)dx}$$
 \paragraph{Calcul de $b$}
 $\vec{b}$ est le reste de l'équation (partie droite)
 $$\int_{0}^{L}-u''(x)v(x)=\int_{0}^{1}f(x)v(x)$$
+La plupart du temps on aura
+$$\boxed{b_i=\int_{0}^{l}f(x)N_i(x)}$$
 \subsection{Maillage}
 Il ne doit pas y avoir de chevauchement d'éléments ou de points qui ne sont pas connectés ensembles.
 \end{document}
