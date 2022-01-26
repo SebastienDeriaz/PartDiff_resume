@@ -91,6 +91,12 @@ $$v\leq \frac{h}{\tau}\longleftrightarrow \frac{v\tau}{h}=r\leq 1$$
 C'est la condition CFL : avec downwind c'est impossible de résoudre le problème. Avec les upwind on peut y arriver parce qu'on utilise les valeurs précédentes (la condition sur $v$ reste valable).\\
 L'analyse de Von Neumann montre que le schéma centré n'est pas stable (même si la condition CFL est vérifiée).
 
+\subsection{Exemple Différences finies}
+\begin{align*} % exercice3 serie8 exemple de différence finies
+-u''(x) = f(x) = (3x+x^2)e^x \textbf{Avec CB (D) = 0}\\
+h=1/5 \rightarrow 0 \frac{1}{5} \frac{2}{5} \frac{3}{5} \frac{4}{5} 1
+
+\end{align*}
 
 
 \end{document}
