@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  26 JAN 2022 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  26 JAN 2022 12:29
 entering extended mode
-**./autres.tex
-(autres.tex
+**./elements_finis.tex
+(elements_finis.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-12>
 (C:\Users\Sebastien\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.c
@@ -297,8 +297,9 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box100
-) (autres.aux)
-\openout1 = `autres.aux'.
+)
+No file elements_finis.aux.
+\openout1 = `elements_finis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -374,39 +375,31 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<drwg_6.pdf, id=1, 267.24844pt x 114.29802pt>
-File: drwg_6.pdf Graphic file (type pdf)
-<use drwg_6.pdf>
-Package pdftex.def Info: drwg_6.pdf  used on input line 26.
-(pdftex.def)             Requested size: 199.16928pt x 85.18437pt.
 [1
 
-{C:/Users/Sebastien/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./drwg_6.pd
-f>] [2] (autres.aux) ) 
+{C:/Users/Sebastien/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(elements_finis.aux) ) 
 Here is how much of TeX's memory you used:
- 4203 strings out of 478699
- 67998 string characters out of 2845065
- 392086 words of memory out of 3000000
- 22259 multiletter control sequences out of 15000+600000
+ 4193 strings out of 478699
+ 67868 string characters out of 2845065
+ 382094 words of memory out of 3000000
+ 22252 multiletter control sequences out of 15000+600000
  405402 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,328b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,11n,79p,257b,230s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/Programs/M
 iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sebastie
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i5.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Sebastien/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Seb
-astien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on autres.pdf (2 pages, 134454 bytes).
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Sebastie
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Us
+ers/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on elements_finis.pdf (1 page, 84189 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 46 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

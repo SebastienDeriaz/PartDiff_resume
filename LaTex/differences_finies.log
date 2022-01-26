@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  26 JAN 2022 14:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  26 JAN 2022 12:19
 entering extended mode
-**./autres.tex
-(autres.tex
+**./differences_finies.tex
+(differences_finies.tex
 LaTeX2e <2021-11-15>
 L3 programming layer <2021-11-12>
 (C:\Users\Sebastien\AppData\Local\Programs\MiKTeX\tex/latex/subfiles\subfiles.c
@@ -297,8 +297,8 @@ Package: subfiles 2020/11/14 v2.2 Multi-file projects (package)
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box100
-) (autres.aux)
-\openout1 = `autres.aux'.
+) (differences_finies.aux)
+\openout1 = `differences_finies.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -374,39 +374,103 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<drwg_6.pdf, id=1, 267.24844pt x 114.29802pt>
-File: drwg_6.pdf Graphic file (type pdf)
-<use drwg_6.pdf>
-Package pdftex.def Info: drwg_6.pdf  used on input line 26.
-(pdftex.def)             Requested size: 199.16928pt x 85.18437pt.
+
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=1, page=1, 370.05342pt x 85.86037pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 1>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page1 used on input line 10
+.
+(pdftex.def)             Requested size: 709.61174pt x 164.66791pt.
+
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=2, page=2, 363.52603pt x 75.31618pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 2>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page2 used on input line 17
+.
+(pdftex.def)             Requested size: 709.61174pt x 147.02911pt.
 [1
 
-{C:/Users/Sebastien/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./drwg_6.pd
-f>] [2] (autres.aux) ) 
+{C:/Users/Sebastien/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./diff_fini
+es_tableaux.pdf> <./diff_finies_tableaux.pdf>]
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=113, page=3, 362.60077pt x 64.44768pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 3>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page3 used on input line 24
+.
+(pdftex.def)             Requested size: 709.61174pt x 126.1366pt.
+
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=114, page=5, 445.72191pt x 65.05002pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 5>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page5 used on input line 38
+.
+(pdftex.def)             Requested size: 709.61174pt x 103.56995pt.
+[2 <./diff_finies_tableaux.pdf>]
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=156, page=6, 463.79172pt x 65.65227pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 6>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page6 used on input line 45
+.
+(pdftex.def)             Requested size: 709.61174pt x 100.45764pt.
+
+
+pdfTeX warning: pdflatex (file ./diff_finies_tableaux.pdf): PDF inclusion: foun
+d PDF version <1.7>, but at most version <1.5> allowed
+<diff_finies_tableaux.pdf, id=157, page=7, 450.54042pt x 53.60597pt>
+File: diff_finies_tableaux.pdf Graphic file (type pdf)
+<use diff_finies_tableaux.pdf, page 7>
+Package pdftex.def Info: diff_finies_tableaux.pdf , page7 used on input line 52
+.
+(pdftex.def)             Requested size: 709.61174pt x 84.43799pt.
+[3 <./diff_finies_tableaux.pdf> <./diff_finies_tableaux.pdf> <./diff_finies_tab
+leaux.pdf>] [4] (differences_finies.aux) ) 
 Here is how much of TeX's memory you used:
- 4203 strings out of 478699
- 67998 string characters out of 2845065
- 392086 words of memory out of 3000000
- 22259 multiletter control sequences out of 15000+600000
+ 4217 strings out of 478699
+ 68859 string characters out of 2845065
+ 393093 words of memory out of 3000000
+ 22273 multiletter control sequences out of 15000+600000
  405402 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,79p,328b,232s stack positions out of 5000i,500n,10000p,200000b,80000s
-<C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Sebastien/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/Sebastie
-n/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/U
-sers/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
-i5.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmmi7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Users/Sebastien/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Seb
-astien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on autres.pdf (2 pages, 134454 bytes).
+ 75i,12n,79p,372b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+<C:/Users/Sebastien/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/Sebastien/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/S
+ebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pf
+b><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmmi10.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmmi12.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/Sebastien/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/Sebastien/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Sebas
+tien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:
+/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+mr5.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmr7.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><C:/Users/Sebastien/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Sebastien/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Sebastien/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Seb
+astien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+C:/Users/Sebastien/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy9.pfb>
+Output written on differences_finies.pdf (4 pages, 270326 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
+ 276 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
