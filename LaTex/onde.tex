@@ -43,7 +43,11 @@ $$\boxed{u_n(x,t)=\left(A_n\cos\left(\frac{n\pi c}{l}t\right)+B_n\sin\left(\frac
 \end{scriptsize}
 \subsection{Conditions aux bords de Neumann}
 Solution générale pour un problème avec conditions aux bords de Neumann $u_x(0,t)=u_x(l,t)=0$ (à utiliser dans l'examen) :
-$$\boxed{u(x,t)=\frac{1}{2}A_0+\frac{1}{2}B_0t+\sum_{n=1}^{\infty}\left(A_n\cos\left(\frac{n\pi c}{l}t\right)+B_n\sin\left(\frac{n\pi c}{l}t\right)\right)\cos\left(\frac{n\pi}{l}x\right)}$$
+\begin{mdframed}[linewidth=1pt,linecolor=black]
+\begin{multline*}
+u(x,t)=\frac{1}{2}A_0+\frac{1}{2}B_0t+\sum_{n=1}^{\infty}\Big(A_n\cos\Big(\frac{n\pi c}{l}t\Big)+\\ B_n\sin\Big(\frac{n\pi c}{l}t\Big)\Big)\cos\Big(\frac{n\pi}{l}x\Big)
+\end{multline*}
+\end{mdframed}
 Avec les conditions initiales
 $$\phi(x)=u(x,0)=\frac{1}{2}A_0+\sum_{n=1}^{\infty}A_n\cos\left(\frac{n\pi}{l}x\right)$$
 $$\psi(x)=u_t(x,0)=\frac{1}{2}B_0+\sum_{n=1}^{\infty}\frac{n\pi c}{l}B_n\cos\left(\frac{n\pi}{l}x\right)$$
